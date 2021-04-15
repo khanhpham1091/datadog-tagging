@@ -71,8 +71,8 @@ Python script enables user to add/update/delete Datadog tags (user-defined tag) 
 
 ## Usage
 
-```sh
-python datadog-tag-api.py -h
+```console
+# python datadog-tag-api.py -h
 
 Usage: py datadog-tag-api.py [--prod]
 
@@ -82,8 +82,8 @@ Options:
 
 ## Example
 
-```sh
-python datadog-tag-api.py
+```console
+# python datadog-tag-api.py
 
 Datadog Tag API - khanhpham1091@gmail.com (Test)
 
