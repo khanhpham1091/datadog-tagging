@@ -99,7 +99,7 @@ Select Hosts (filterbytag|regex)
  example: host:azurevm,zone:apac|^azvm.*[0-9]$
  example: host:azurevm
 + Enter your hosts (Leave empty to select ALL): host:aws
-Tags: env:development
++ Tags: env:development
 Are you sure you want to perform this action ?
 Performing the operation "Add tags to hosts" on hosts (total: 2)
         aws-free-vm1
