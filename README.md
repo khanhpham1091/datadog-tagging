@@ -71,8 +71,8 @@ Python script enables user to add/update/delete Datadog tags (user-defined tag) 
 
 ## Usage
 
-```console
-# python datadog-tag-api.py -h
+```shell
+$ python datadog-tag-api.py -h
 
 Usage: py datadog-tag-api.py [--prod]
 
@@ -82,8 +82,8 @@ Options:
 
 ## Example
 
-```console
-# python datadog-tag-api.py
+```diff
+$ python datadog-tag-api.py
 
 Datadog Tag API - khanhpham1091@gmail.com (Test)
 
@@ -94,18 +94,18 @@ List of actions
         4: Update host tags
         5: Remove host tags
 
-Your choice is [1-5]: 3
++ Your choice is [1-5]: 3
 Select Hosts (filterbytag|regex)
  example: host:azurevm,zone:apac|^azvm.*[0-9]$
  example: host:azurevm
-Enter your hosts (Leave empty to select ALL): host:aws
++ Enter your hosts (Leave empty to select ALL): host:aws
 Tags: env:development
 Are you sure you want to perform this action ?
 Performing the operation "Add tags to hosts" on hosts (total: 2)
         aws-free-vm1
         aws-free-vm2
 with tags ['env:development']
-[Y] Yes   [N] No   (default is "N"): Y
++ [Y] Yes   [N] No   (default is "N"): Y
 Creating tags for host:aws-free-vm1 ...
 success
 {
@@ -124,7 +124,7 @@ success
 }
 ---
 Start over ?
-[Y] Yes   [N] No   (default is "N"): N
++ [Y] Yes   [N] No   (default is "N"): N
 Bye
 ```
 <!-- CONTACT -->
