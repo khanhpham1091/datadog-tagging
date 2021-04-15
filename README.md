@@ -37,7 +37,7 @@ Python script enables user to add/update/delete Datadog tags (user-defined tag) 
 * [python3](https://www.python.org/downloads/)
     ```shell
     $ python --version
-    $ Python 3.9.2
+    Python 3.9.2
     ```
 
 ### Installation
