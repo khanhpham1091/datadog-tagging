@@ -35,23 +35,23 @@ Python script enables user to add/update/delete Datadog tags (user-defined tag) 
 ### Prerequisites
 
 * [python3](https://www.python.org/downloads/)
-    ```console
-    python --version
-    Python 3.9.2
+    ```shell
+    $ python --version
+    $ Python 3.9.2
     ```
 
 ### Installation
 
 1. Install dependencies
    
-   ```console
-   pip install requests
+   ```shell
+   $ pip install requests
    ```
 
 2. Create your own API KEY and APP KEY at [Datadog API and Application Keys](https://docs.datadoghq.com/account_management/api-app-keys/)
 3. Clone the repo
-   ```console
-   git clone https://github.com/pd-khanh/datadog-tag-api.git
+   ```shell
+   $ git clone https://github.com/pd-khanh/datadog-tag-api.git
    ```
 4. Rename `config.json.tmpl` to `config.json`
 5. Enter your API KEY and APP KEY in `config.json`
